@@ -1,5 +1,7 @@
 # Pyradiomics-Feature-Extration
 
 A extração de características tem o propósito de simplificar um conjunto de dados para descrevê-lo com maior precisão. A técnica consiste em, a partir de imagens, extrair informações específicas e precisas de forma computadorizada, adquirindo um número maior de informações com maior acurácia, chamado de vetor de características (KUBAT, 2017).
-A radiômica consiste em extrair informações quantitativas de imagens de diagnóstico, tais como aquelas obtidas com tomografia por emissão de pósitrons (PET), tomografia computadorizada (TC), ou imagens de ressonância magnética (RMI), incluindo padrões complexos que são difíceis de reconhecer ou quantificar pelo olho humano. 
-A radiômica pode ser utilizada para capturar as propriedades dos tecidos lesionados, tais como a forma e a heterogeneidade dos pixels contidos na imagem. A avaliação da heterogeneidade dos tecidos é de interesse na área da oncologia pois enquanto as biópsias captam heterogeneidade dentro de uma pequena área de um tumor e geralmente num único local anatômico, a radiômica consegue capturar a heterogeneidade em todo o volume do tumor ou lesão. Ademais, análises genômicas demonstraram que o grau de heterogeneidade tumoral é um determinante prognóstico da sobrevivência e um obstáculo ao controle do câncer do paciente (MAYERHOEFER, 2020).
+
+O pacote Pyradiomics é uma plataforma de código aberto para extração de características quantitativas em imagens médicas, implementada em linguagem de programação Python (VAN GRIETHUYSEN, 2017). Esse pacote consegue extrair características radiômicas seguindo as seguintes etapas: Carregamento e pré-processamento da imagem e mapas de segmentação; Aplicação de filtros; Cálculo das características utilizando as diferentes classes de características; Resultados. A figura abaixo ilustra essas etapas:
+
+![image](https://user-images.githubusercontent.com/44441066/166678604-e4081227-42b5-49a2-a32b-dbc8d23ffd01.png)
